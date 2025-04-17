@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Глава 1</title>
+</head>
+<body>
+    <div class="header">
+        <div class="menu">
+            <a href="/index.html">Главная</a>
+            <a href="/html/g1.html">Глава 1</a>
+            <a href="">Глава 2</a>
+            <a href="">Глава 3</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="block_container">
+            <p class="title">Глава 1 Введение в HTML</p>
+
+            <p class="text">
+                HTMl (Hyper Text Markup Language) - язык разметки с помощью которого создаются веб-страницы.
+                <br>
+                Он определяет структуру и содеожимое сайта: заголовки, текст, изображения, ссылки и прочее.
+                <br>
+                Структура HTML-документа выглядит так:
+                <pre>
+                    <code>
+                        &lt;!DOCTYPE html>
+                        &lt;html lang="en">
+                        &lt;head>
+                            &lt;meta charset="UTF-8">
+                            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            &lt;title>Document&lt;/title>
+                        &lt;/head>
+                        &lt;body>
+                            
+                        &lt;/body>
+                        &lt;/html>
+                    </code>
+                </pre>
+                Давайте разберем по строчно
+                <br>
+                Каждый HTML-документ начинается с декларации &lt;!DOCTYPE html>, которая сообщает браузеру, что используется HTML
+                <br>
+                Далее идут корневые теги &lt;html>, &lt;head> и &lt;body>.
+                <br>
+                Теги - это элименты кода которые находятся &lt;..> и  &lt;/..>
+                <br>
+                Они бывают "закрытими" то есть имеют &lt;/..> и "открытими" теги которые не надо закрывать
+                <br>
+                Закрытые теги - В коде выше это теги &lt;html>, &lt;head>, &lt;body>, &lt;title> они у нас закрытые
+                <br>
+                Открытые теги - к примеру тег &lt;br>(перенос строки) 
+                
+                <br>
+                &lt;html> - корневой элимент HTML документа , заключает в себе все другие элименты.
+                <br>
+                &lt;head> - содержит мета данные о документе такие как заголовок, стили, скрипты. Тег &lt;meta> это и есть те самые данные как видно выше
+                <br>
+                &lt;body> - это основной контент страницы, то что мы видим в браузере
+                <br>
+                &lt;title> - это заголовок нашей страницы который видно на вкладке(заголовке) сайта
+                <br>
+                Отлично теперь давайте создаим свою первую страницу>
+                <br>
+                Создаем на рабочем столе (или где вам удобнее) текстовый документ
+                <br>
+                ПКМ>Создать>Текстовый документ
+                <br>
+                название документа может быть любым, но расширение файла вместо .txt меняем на .html
+                <br>
+                Я создал index.html (обычно главную страницу сайта называют index)
+                <br>
+                теперь откроем этот файл в блокноте
+                <br>
+                ПКМ(по файлу)>Открыть с помощью>Блокнот
+                <br>
+                и напишем такой код:
+                <pre>
+                    <code>
+                        &lt;!DOCTYPE html>
+                        &lt;html lang="ru"> // lang="en" это указывает на то что основной язык документа это Английский мы поставим на ru - Русский
+                        &lt;head>
+                            &lt;meta charset="UTF-8"> // Про это нам пока рано знать :)
+                            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            &lt;title>Моя первая страница!&lt;/title>
+                        &lt;/head>
+                        &lt;body>
+                            &lt;p>Привет мир!&lt;/p>
+                        &lt;/body>
+                        &lt;/html>
+                    </code>
+                </pre>
+                можно заметить новый тег &lt;p> 
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+</body>
+</html>
